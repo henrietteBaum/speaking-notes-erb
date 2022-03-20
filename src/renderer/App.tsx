@@ -1,14 +1,15 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
 import icon from '../../assets/icon.svg';
 import './App.css';
+import { NoteBox } from 'components/NoteBox';
 
 const Hello = () => {
   return (
     <div>
       <div className="Hello">
-        <img width="200px" alt="icon" src={icon} />
+        <img width="100px" alt="icon" src={icon} />
       </div>
-      <h1>electron-react-boilerplate</h1>
+      <h1>electron-react-boilerplate - fork</h1>
       <div className="Hello">
         <a
           href="https://electron-react-boilerplate.js.org/"
@@ -27,14 +28,9 @@ const Hello = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <button type="button">
-            <span role="img" aria-label="books">
-              🙏
-            </span>
-            Donate
-          </button>
         </a>
       </div>
+      <NoteBox />
     </div>
   );
 };
@@ -44,6 +40,7 @@ export default function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Hello />} />
+        {/* <Route path="/../components/*" element={<NoteBox />} /> */}
       </Routes>
     </Router>
   );
