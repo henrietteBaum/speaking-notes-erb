@@ -4,6 +4,8 @@ import ClearTextArea from './ClearTextArea';
 import FileUpload from './FileUpload';
 import SaveNoteText from './SaveNoteText';
 import WebSpeech from './WebSpeech';
+import StyledSidebar from 'styles/SidebarStyle';
+
 
 function NoteBox() {
 
@@ -25,20 +27,21 @@ function NoteBox() {
       noteText={noteText}
       setNoteText={setNoteText}
      /> */}
-     {/* <StyledSidebar>
+     <StyledSidebar>
      <WebSpeech
       noteText={noteText}
       setNoteText={setNoteText}
-      /> */}
-     {/* <ClearTextArea
+      />
+     <ClearTextArea
       noteText={noteText}
       setNoteText={setNoteText}
-     /> */}
+     />
      {/* <SelectVoice
      selectecVoice={selectedVoice}
      setSelectedVoice={setSelectedVoice}
      /> */}
-     {/* </StyledSidebar>
+     </StyledSidebar>
+     {/*
      <SaveNoteText
       noteText={noteText}
       setNoteText={setNoteText}

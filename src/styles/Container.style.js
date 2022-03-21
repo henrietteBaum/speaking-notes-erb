@@ -13,7 +13,7 @@ export const Container = styled.div`
     'footerLeft footerMid footerRight'
   ;
 
-  grid-template-columns: 20% 30% 30em;
+  grid-template-columns: 30% 20% 30em;
   grid-template-rows: 70px 85% 15%;
 `;
 

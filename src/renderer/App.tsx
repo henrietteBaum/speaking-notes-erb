@@ -5,8 +5,9 @@
 
 import GlobalStyle from 'styles/GlobalStyle';
 import Container from 'styles/Container.style';
-import NoteBox from 'components/NoteBox';
 import Header from 'components/Header';
+import Sidebar from 'components/Sidebar';
+import NoteBox from 'components/NoteBox';
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <GlobalStyle />
       <Container>
         <Header />
+        <Sidebar />
         <NoteBox />
       </Container>
     </>
