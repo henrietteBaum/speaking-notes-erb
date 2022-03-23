@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledLabel = styled.label`
   grid-area: footerMid;
-  background: rgb(34, 40, 87);
+  background-color: rgb(34, 40, 87);
   border: 0.5px solid dodgerblue;
   border-radius: 5px;
   color: whitesmoke;
@@ -10,7 +10,7 @@ export const StyledLabel = styled.label`
   width: 5.5em;
   height: 1.6em;
   text-align: center;
-  padding-top: 0.4em;
+  padding-top: 0.3em;
   margin: 12px;
 
    &:hover {

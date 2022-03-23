@@ -6,8 +6,8 @@ export const StyledSelect = styled.select`
   border: 0.5px solid dodgerblue;
   color: whitesmoke;
   font-size: larger;
-  width: 5em;
-  height: 2em;
+  width: 5.5em;
+  height: 2.1em;
   text-align: center;
   margin: 12px;
 

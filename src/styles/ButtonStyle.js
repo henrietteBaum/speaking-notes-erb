@@ -6,7 +6,7 @@ export const StyledButton = styled.button`
   border: 0.5px solid dodgerblue;
   color: whitesmoke;
   font-size: larger;
-  width: 5em;
+  width: 5.5em;
   height: 2em;
   text-align: center;
   margin: 12px;
