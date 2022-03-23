@@ -18,24 +18,24 @@ function NoteBox() {
 
   return (
     <>
-    <StyledTextarea
-      value={noteText}
-      onChange={handleTextChange}
-      placeholder='Type text here or open existing file'
-    />
-     {/* <FileUpload
-      noteText={noteText}
-      setNoteText={setNoteText}
-     /> */}
-     <StyledSidebar>
-     <WebSpeech
-      noteText={noteText}
-      setNoteText={setNoteText}
+      <StyledTextarea
+        value={noteText}
+        onChange={handleTextChange}
+        placeholder='Type text here or open existing file'
       />
-     <ClearTextArea
-      noteText={noteText}
-      setNoteText={setNoteText}
-     />
+      <FileUpload
+        noteText={noteText}
+        setNoteText={setNoteText}
+      />
+      <StyledSidebar>
+      <WebSpeech
+        noteText={noteText}
+        setNoteText={setNoteText}
+        />
+      <ClearTextArea
+        noteText={noteText}
+        setNoteText={setNoteText}
+      />
      {/* <SelectVoice
      selectecVoice={selectedVoice}
      setSelectedVoice={setSelectedVoice}

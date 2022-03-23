@@ -14,7 +14,7 @@ export const Container = styled.div`
   ;
 
   grid-template-columns: 30% 20% 30em;
-  grid-template-rows: 70px 85% 15%;
+  grid-template-rows: 70px 80% 20%;
 `;
 
 export default Container
