@@ -40,7 +40,7 @@ Build with Electron React Boilerplate and Web-Speech-API and Styled-Components.
 Clone the repo and install dependencies:
 
 ```bash
-git clone ... your-project-name
+git clone https://github.com/henrietteBaum/speaking-notes-erb.git your-project-name
 cd your-project-name
 npm install
 ```
